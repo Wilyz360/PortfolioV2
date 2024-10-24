@@ -5,7 +5,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark border border-top-0 border-start-0 border-end-0 border-light bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          Elmos
+          Elmoz
         </a>
         <button
           className="navbar-toggler"
