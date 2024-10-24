@@ -20,9 +20,9 @@ const Projects = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <img className="scoreImg" src={ScoreApp} alt="Score Web App" />
+            <img className="scoreImg" src={ScoreApp} alt="Scores Web App" />
             <div>
-              <span>Score Web App</span>
+              <span>Scores Web App</span>
             </div>
           </a>
         </div>
