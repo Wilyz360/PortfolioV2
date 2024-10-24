@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  position: absolute;
+  color: var(--font-color);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: inherit !important;
+  min-height: 96vh;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.scoreImg {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.msgImg {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.project_hover {
+  transition: all 0.1s;
+}
+
+.project_hover:hover {
+  transform: scale(1.5);
+}
